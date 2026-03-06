@@ -159,13 +159,20 @@ address a:focus {
     align-items: center;
 }
 
-.icon {
+.ico-link {
     display: flex;
     background-color: #4D5AE5;
+    justify-content: center;
+    align-items: center;
+    color: #F4F4FD;
     border-radius: 50%;
-    padding: 12px;
     width: 40px;
     height: 40px;
+}
+
+.ico-link:hover,
+.ico-link:focus {
+    background-color: #404BBF;
 }
 
 .moto .container {
@@ -292,40 +299,10 @@ h3 {
     padding-bottom: 8px;
 }
 
-.antenna {
-    display: block;
-    max-width: 264px;
-    max-height: 112px;
-    border: 1px solid #8E8F99;
-    background-color: #F4F4FD;
-    padding: 24px 100px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
+.antenna,
+.astronaut,
+.pc,
 .clock {
-    display: block;
-    max-width: 264px;
-    max-height: 112px;
-    border: 1px solid #8E8F99;
-    background-color: #F4F4FD;
-    padding: 24px 100px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.pc {
-    display: block;
-    max-width: 264px;
-    max-height: 112px;
-    border: 1px solid #8E8F99;
-    background-color: #F4F4FD;
-    padding: 24px 100px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.astronaut {
     display: block;
     max-width: 264px;
     max-height: 112px;
