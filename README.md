@@ -1,4 +1,4 @@
 # goit-markup-hw-01
 
-my second homework
-now it with css
+my forth homework
+including css decoration rules
