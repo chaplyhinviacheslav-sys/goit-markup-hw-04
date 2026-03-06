@@ -137,15 +137,35 @@ address a:focus {
 .moto {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image:
-            linear-gradient(to bottom,
-                rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-1.jpg);
+    background-image: 
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.social-ico {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
 }
 
 .moto .container {
@@ -272,6 +292,50 @@ h3 {
     padding-bottom: 8px;
 }
 
+.antenna {
+    display: block;
+    max-width: 264px;
+    max-height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.clock {
+    display: block;
+    max-width: 264px;
+    max-height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.pc {
+    display: block;
+    max-width: 264px;
+    max-height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.astronaut {
+    display: block;
+    max-width: 264px;
+    max-height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 .team-list {
     display: flex;
     gap: 24px;
@@ -317,6 +381,7 @@ h3 {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-list {
